@@ -57,12 +57,12 @@ $$
 
 如果有一个映射 $\varphi:G \to G_1$ 使得 $\varphi(ab)=\varphi(a)\varphi(b)$ ,那么就可以称 $\varphi$ 为**单(满)同态**, 如果既单又满称为**同构**,如果同构,记做 $G \cong G_1$ .
 
-自然的,在考虑同态的时候, $\varphi:G \to G_1$ 中必然会考虑 $\image \varphi$ 和 $\ker \varphi$ ,其中 $\image \varphi$ 就是像集, $\ker \varphi=\{x \in G \mid \phi(x)=e\}$ 被称为**核**.
+自然的,在考虑同态的时候, $\varphi:G \to G_1$ 中必然会考虑 $im \varphi$ 和 $\ker \varphi$ ,其中 $im \varphi$ 就是像集, $\ker \varphi=\{x \in G \mid \phi(x)=e\}$ 被称为**核**.
 
-那容易发现 $\image \phi \leqslant G_1$ , $\ker \phi \unlhd G$ ,第二个我们通过 $\varphi(a^{-1}ha)=e$ 证明,并且有一个很重要的事实:
+那容易发现 $im \phi \leqslant G_1$ , $\ker \phi \unlhd G$ ,第二个我们通过 $\varphi(a^{-1}ha)=e$ 证明,并且有一个很重要的事实:
 
 $$
-G/ \ker \varphi \cong \image \varphi
+G/ \ker \varphi \cong im \varphi
 $$
 
 考虑映射 $\phi$ ,对于 $G / \ker \varphi$ 中一个陪集 $G'$ 将其映射到 $\varphi(g')$ , $\forall g' \in G'$ ,很显然这是一个正确的映射.
