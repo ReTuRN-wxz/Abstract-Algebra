@@ -48,9 +48,11 @@ $$
 接下来我们要考虑一种比较特殊的群,顾名思义就是有 $gg'=g'g$ 的群,那我们直观上肯定会有这样一个感觉,就是交换群是依靠一些互相独立的元生成的,那就有以下定理:
 
 **有限交换群结构定理**:任意有限交换群 $G$ 都可以分解为素数幂阶循环群的直和,即当 $|G|=\prod_{i=1}^{t} p_i^{k_i}$ :
+
 $$
 G \cong \bigoplus_{i=1}^{t}(\mathbb{Z}/p_i^{k_i} \mathbb{Z})
 $$
+
 首先我们得解释**同态**这个概念:
 
 如果有一个映射 $\varphi:G \to G_1$ 使得 $\varphi(ab)=\varphi(a)\varphi(b)$ ,那么就可以称 $\varphi$ 为**单(满)同态**, 如果既单又满称为**同构**,如果同构,记做 $G \cong G_1$ .
@@ -58,9 +60,11 @@ $$
 自然的,在考虑同态的时候, $\varphi:G \to G_1$ 中必然会考虑 $\image \varphi$ 和 $\ker \varphi$ ,其中 $\image \varphi$ 就是像集, $\ker \varphi=\{x \in G \mid \phi(x)=e\}$ 被称为**核**.
 
 那容易发现 $\image \phi \leqslant G_1$ , $\ker \phi \unlhd G$ ,第二个我们通过 $\varphi(a^{-1}ha)=e$ 证明,并且有一个很重要的事实:
+
 $$
 G/ \ker \varphi \cong \image \varphi
 $$
+
 考虑映射 $\phi$ ,对于 $G / \ker \varphi$ 中一个陪集 $G'$ 将其映射到 $\varphi(g')$ , $\forall g' \in G'$ ,很显然这是一个正确的映射.
 
 现在我们考虑怎么说明一个映射 $\varphi$ 可以说明 $G,G_1$ 是同构的?
