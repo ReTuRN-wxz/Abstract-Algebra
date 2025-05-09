@@ -66,6 +66,6 @@ PS: 我们也好奇是否能直接求出 $|G_{p^k}|$ 和 $|G_m|$ ?
 
 **Claim**: $\sigma (i_1,i_2,\cdots,i_t) \sigma^{-1}=(\sigma(i_1),\sigma(i_2),\cdots,\sigma(i_t))$ .
 
-这是因为考虑$\sigma (i_1,i_2,\cdots,i_t) \sigma^{-1}(\sigma(i_j))=\sigma(i_{j+1})$ ,其余的不变,所以Claim成立.
+这是因为考虑 $\sigma (i_1,i_2,\cdots,i_t) \sigma^{-1}(\sigma(i_j))=\sigma(i_{j+1})$ ,其余的不变,所以Claim成立.
 
 然后取出 $H$ 中不动点最多的,必然是一个三轮换,从而 $H$ 包含所有的三轮换,既而得证.
