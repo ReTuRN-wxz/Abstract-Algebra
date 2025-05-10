@@ -12,7 +12,7 @@ $$
 
 如果有一个映射 $\varphi:G \to G_1$ 使得 $\varphi(ab)=\varphi(a)\varphi(b)$ ,那么就可以称 $\varphi$ 为**单(满)同态**, 如果既单又满称为**同构**,如果同构,记做 $G \cong G_1$ .
 
-自然的,在考虑同态的时候, $\varphi:G \to G_1$ 中必然会考虑 $im \varphi$ 和 $\ker \varphi$ ,其中 $im \varphi$ 就是像集, $\ker \varphi=\left{x \in G \mid \varphi(x)=e \right}$ 被称为**核**.
+自然的,在考虑同态的时候, $\varphi:G \to G_1$ 中必然会考虑 $im \varphi$ 和 $\ker \varphi$ ,其中 $im \varphi$ 就是像集, $\ker \varphi=\{x \in G \mid \varphi(x)=e \}$ 被称为**核**.
 
 那容易发现 $im \varphi \leqslant G_1$ , $\ker \varphi \unlhd G$ ,第二个我们通过 $\varphi(a^{-1}ha)=e$ 证明,并且有一个很重要的事实:
 
