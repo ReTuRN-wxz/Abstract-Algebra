@@ -38,7 +38,7 @@ $$
 其实这个很类似于这个式子(其中 $\varphi$ 是一个映射):
 
 $$
-G/ \ker \varphi \cong \image \varphi.
+G/ \ker \varphi \cong Im \varphi.
 $$
 
 我们正好回顾下这个怎么证明的,考虑 $\bar{a} \in G/ \ker \varphi$ ,将其映射至 $\varphi(a)$ ,那么这是一个既单又满的映射,从而得证,那回到上面那个式子,我们采用同样的手法证明:
